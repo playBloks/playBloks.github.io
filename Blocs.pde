@@ -966,7 +966,7 @@ class Player extends Actor {
   int HP, HP_max = 10000;
   int regenSpeed = 4;
   int rotate_displacement = 0;     //clockwise
-  int gold = 10000;
+  int gold = 0;
   boolean[] movement, shooting, upgrades, abilities;
   int maxAbilityLevel = 6;
   int[] stats = {0,0,0,0,0}; //agility, power, bomb, beserk, slowmo
