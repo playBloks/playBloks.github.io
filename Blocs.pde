@@ -1,6 +1,6 @@
 //variables
-int sWidth = 960;
-int sHeight = 600;
+int sWidth = 800;
+int sHeight = 560;
 int margin = floor(sHeight * .05);
 int status = 0;
 int score = 0;
@@ -41,7 +41,7 @@ boolean[] downKeys;
 void setup(){
   frameRate(30);
   //size(sWidth,sHeight);
-  size(960 ,600);
+  size(800 ,560);
 
   //init background
   bgSprites = new BgSprite[40];
